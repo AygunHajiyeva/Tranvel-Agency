@@ -1,0 +1,71 @@
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit:cover;
+    }
+
+#tours .col{
+    padding-bottom: 30px;
+}
+
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact{
+
+   text-align: left;
+   justify-content: center;
+}
+
+header  {
+    padding-top: 10rem;
+    padding-bottom: 18rem;
+    background-image: url(/images/back2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: 0 4px 5px rgb(2, 6, 24);
+
+}
+
+.nav-item a{
+    color: aliceblue
+}
+
+.nav-item a:hover{
+    color: burlywood;
+  
+}
+
+ .navbar-toggler {
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  @media only screen and (max-width : 768px) {
+    .navbar-collapse {
+    background: #323e5f;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+    .navbar {
+    background: #323e5f;
+  }
+}
+
+.fixed-top.scrolled {
+    background-color: #323e5f !important;
+    transition: background-color 200ms linear;
+  }
